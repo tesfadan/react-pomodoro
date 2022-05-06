@@ -5,7 +5,7 @@ import Title from 'react-title-component';
 import Mousetrap from 'mousetrap';
 import GithubCorner from 'react-github-corner';
 
-import Footer from './../Footer/Footer';
+import Footer from '../Footer/Footer';
 
 export default class Pomodoro extends React.Component {
 
@@ -225,9 +225,9 @@ export default class Pomodoro extends React.Component {
           </div>
 
           <div className="container display types">
-            <button className="btn code" onClick={this.setTimeForCode}>Code</button>
-            <button className="btn social" onClick={this.setTimeForSocial}>Social</button>
-            <button className="btn coffee" onClick={this.setTimeForCoffee}>Coffee</button>
+            <button className="btn code" onClick={this.setTimeForCode}>Work</button>
+            <button className="btn social" onClick={this.setTimeForSocial}>Break</button>
+            {/* <button className="btn coffee" onClick={this.setTimeForCoffee}>Coffee</button> */}
           </div>
 
           <div className="container">
